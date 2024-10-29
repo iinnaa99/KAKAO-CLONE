@@ -1,0 +1,14 @@
+.new {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  right: -5px;
+  top: -12px;
+}
+
+.new-cog {
+  right: 17px;
+  top: 50px;
+}
