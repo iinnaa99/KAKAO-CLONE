@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Adventure Time</title>
+  </head>
+  <body id="friend-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:22</span>
+      </div>
+      <div class="status-bar__column">
+        <span>99%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span>
+          <span class="new new-cog"></span>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-chevron-right fa-xm"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://mblogthumb-phinf.pstatic.net/20150525_192/ribbonchick_1432487211974PrIdL_JPEG/%C7%C9-1.jpg?type=w2"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Finn Mertens</h4>
+            <!--<h6 class="user-component__subtitle">this is whatever</h6>-->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__component-list">
+        <div class="friends-screen__component">
+          <div class="friend-screen__component-header">
+            <span>Channel</span>
+            <i class="fas fa-chevron-up fa-xm"></i>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="http://mblogthumb1.phinf.naver.net/MjAyMTAxMjZfOTAg/MDAxNjExNTg2ODc2Mjky.JeT9cwUVSZgNYOynrD1Gsx7EZpN2S-7_3UxM-GBpTaEg.qhEwm6WBDbBCpN-Lx4M_GLg5976LN8DhUQ47-oOGbhcg.PNG.hib9989/animation-disc-cn-logo-19F7ABB372-seeklogo.com.png?type=w800"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4
+                  class="user-component__title user-component__title--not-bold"
+                >
+                  Channel
+                </h4>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <div>
+                <span>2</span>
+                <i class="fas fa-chevron-right fa-xm"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="friends-screen__component">
+          <div class="friend-screen__component-header">
+            <span>Friends</span>
+          </div>
+          <a href="chat/chat_Jake.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150527_4/ribbonchick_1432669532104uadg0_JPEG/2_%C1%A6%C0%CC%C5%A9-3.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Jake
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_BMO.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150522_36/ribbonchick_14322834754324ggeK_JPEG/BMO-3.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    BMO
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_Princess-Bibblegum.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150525_101/ribbonchick_1432529393581y6wfl_JPEG/4_%B9%F6%BA%ED%B0%CB-4.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Princess Bibblegum
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_Flame-Princess.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150526_81/ribbonchick_1432573711295myu6b_JPEG/6_%C7%C3%B7%B9%C0%D3%B0%F8%C1%D6-3.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Flame Princess
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_Marceline-Abader.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150525_115/ribbonchick_1432547455987bdm8G_JPEG/5_%B8%B6%BC%D0%B8%B0-1.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Marceline Abadeer
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_Lemongrab.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150527_113/ribbonchick_1432667490276ubxmU_JPEG/7_%B7%B9%B8%F3%B1%D7%B7%A6-3.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Lemongrab
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_Ice-King.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150527_95/ribbonchick_1432655804449Bj5gB_JPEG/8_%BE%C6%C0%CC%BD%BA%C5%B7-3.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Ice King
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_Lumpy-Space-Princess.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150525_100/ribbonchick_143248494265760wuT_JPEG/LSP-1.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Lumpy Space Princess
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_Peppemint-Butler.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150526_175/ribbonchick_1432576779501okXT9_JPEG/10__%B1%D7%BF%DC-%C6%E4%C6%DB%B9%CE%C6%AE_%C1%FD%BB%E7-1.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Peppemint Butler
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_Gunter.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150526_232/ribbonchick_14325802096776PsjR_JPEG/10_%B1%D7%BF%DC-%B1%C7%C5%CD-1.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Gunter
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+          <a href="chat/chat_Lady-Rainicorn.html">
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="https://mblogthumb-phinf.pstatic.net/20150526_213/ribbonchick_1432648191760nCpEc_JPEG/10_%B1%D7%BF%DC-%B7%B9%C0%CC%B4%CF%C4%DC-1.jpg?type=w2"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4
+                    class="user-component__title user-component__title--not-bold"
+                  >
+                    Lady Rainicorn
+                  </h4>
+                </div>
+              </div>
+              <div class="user-component__column"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">2</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="new"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <img
+        src="http://mblogthumb2.phinf.naver.net/MjAyMTAxMjVfMjcx/MDAxNjExNTg2MDUzNDE3.TfUeN0J29iHi6CDRCSSeV-8sbW6EJG7qkVAFGYLe2iAg.IToTPvJjq8zSsP_kZr566_ZstAuJEFbQru_aVN9lxksg.PNG.hib9989/pngfind.com-adventure-time-png-715492.png?type=w800"
+      />
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is super big!!!</span>
+    </div>
+    <div id="landscape">
+      <span>Please flip your phone :)</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

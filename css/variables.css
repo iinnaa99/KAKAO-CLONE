@@ -1,0 +1,10 @@
+:root {
+  /* --background-color: mediumturquoise;
+  --point-color: darkturquoise; */
+
+  --background-color: #f6c61e;
+  --point-color: white;
+
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.3);
+}
