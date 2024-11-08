@@ -4,9 +4,14 @@
   align-items: center;
 }
 
-.welcome-header img {
-  margin-bottom: 40px;
-  height: 150px;
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.welcome-header__text {
+  margin: 5px 40px;
+  opacity: 0.7;
+  font-size: 15px;
 }
 
 #login-form {
@@ -20,7 +25,7 @@
   opacity: 0.7;
   padding: 15px 0px;
   font-size: 18px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 #login-form input:not([type='submit']) {
