@@ -1,37 +1,9 @@
-.user-component__text i {
-  color: hotpink;
-  margin-left: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.user-component__text > div {
-  display: flex;
-  align-items: flex-end;
-}
-
-.more-screen,
-.icon-row,
-.more-suggestions {
+.more-screen .icon-row {
   margin-top: 35px;
 }
-.icon-row {
-  border-top: var(--main-border);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  text-align: center;
-}
-.icon-row div {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  margin: 30px;
-}
 
 .more-suggestions {
+  margin-top: 50px;
   border-top: var(--main-border);
   padding-top: 40px;
 }
@@ -54,10 +26,10 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--background-color);
+  background-color: var(--yellow);
   border-radius: 10px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }

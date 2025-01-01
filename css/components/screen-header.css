@@ -3,21 +3,16 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
-  margin-top: 25px;
   margin-bottom: 15px;
 }
 
 .screen-header__title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
 }
 
 .screen-header__icons span {
   margin-left: 25px;
-}
-.screen-header__icons img {
-  margin-left: 20px;
-  height: 20px;
 }
 
 @keyframes rotateCog {
@@ -30,44 +25,5 @@
 }
 
 .screen-header__icons .fa-cog:hover {
-  animation: rotateCog 2s linear infinite;
-}
-
-@keyframes rotateSearch {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateY(360deg);
-  }
-}
-
-.screen-header__icons .fa-search:hover {
-  animation: rotateSearch 1.5s linear infinite;
-}
-
-@keyframes rotateComment {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateY(360deg);
-  }
-}
-
-.screen-header__icons .fa-comment-dots:hover {
-  animation: rotateComment 1.5s linear infinite;
-}
-
-@keyframes rotatemusic {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateY(360deg);
-  }
-}
-
-.screen-header__icons .fa-music:hover {
-  animation: rotatemusic 1.5s linear infinite;
+  animation: rotateCog 1s linear infinite;
 }
