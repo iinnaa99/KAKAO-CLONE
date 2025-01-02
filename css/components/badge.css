@@ -9,3 +9,31 @@
   color: white;
   font-weight: 600;
 }
+
+.badge-me {
+  background-color: gray;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.badge-none {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  margin-right: 5px;
+}
